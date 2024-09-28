@@ -1,0 +1,43 @@
+@keyframes color {
+  0% {
+    color: rgb(255, 0, 76);
+  }
+
+  50% {
+    color: rgb(0, 195, 255);
+  }
+
+  100% {
+    color: rgb(255, 0, 76);
+  }
+}
+  h2 {
+    animation: color-change 1.5s infinite;
+}
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 18px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #000000; /* El color del fondo de la página web */
+    color: #FFFFFF; /* El color del texto*/ 
+}
+
+h1 {
+    animation: color-change 1.5s infinite;
+}
+
+@keyframes color {
+  0% {
+    color: rgb(255, 0, 76);
+  }
+
+  50% {
+    color: rgb(0, 195, 255);
+  }
+
+  100% {
+    color: rgb(255, 0, 76);
+  }
+}
+  h2 {
+    animation: color-change 1.5s infinite;
+}
